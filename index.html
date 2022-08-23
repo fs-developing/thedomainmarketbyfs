@@ -191,6 +191,16 @@
     </script>
 
     <script>
+      
+      jQuery.get("http://ipinfo.io", function(getcountry){
+
+        if(getcountry.country == "DE" || getcountry.country == "CH" || getcountry.country == "AT"){
+          window.location.href = "https://www.fsdomains.de/de/index.html";
+          
+        } else{
+          window.location.href = "https://www.fsdomains.de/com/index.html";
+        }
+      }, "jsonp")
 
       function openNav(){
         document.querySelector("ul").style.left = "0";
