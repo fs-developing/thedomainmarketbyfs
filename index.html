@@ -16,15 +16,15 @@
     <section id="home"></section>
     <nav>
       <input type="checkbox" id="check">
-      <label for="check" class="checkbtn" id="checkbtn">
+      <label onclick="openNav()" for="check" class="checkbtn" id="checkbtn">
         <a>&#9776;</a>
       </label>
       <label class="logo"><a href="index.html">fsdomains</a></label>
       <ul>
-        <li class="navlink"><a href="#home" class="ahov">Home</a></li>
-        <li class="navlink"><a href="#angebot" class="ahov">Domainmarket</a></li>
-        <li class="navlink"><a href="#information" class="ahov">Information</a></li>
-        <li class="navlink"><a href="#kontakt" class="ahov">Contact</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="#home" class="ahov">Home</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="#angebot" class="ahov">Domainmarket</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="#information" class="ahov">Information</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="#kontakt" class="ahov">Contact</a></li>
         <!-- <li><a href="#">Footer</a></li> -->
       </ul>
     </nav>
@@ -192,6 +192,16 @@
 
     <script>
 
+      function openNav(){
+        document.querySelector("ul").style.left = "0";
+        document.getElementById("checkbtn").onclick = closeNav;
+      }
+
+      function closeNav(){
+        document.querySelector("ul").style.left = "-100%";
+        document.getElementById("checkbtn").onclick = openNav;
+      }
+      
       filterSelection("all")
       function filterSelection(c) {
         var x, i;
