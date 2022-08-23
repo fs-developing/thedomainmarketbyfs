@@ -21,10 +21,10 @@
       </label>
       <label class="logo"><a href="index.html">fsdomains</a></label>
       <ul>
-        <li class="navlink"><a href="index.html#home" class="ahov">Home</a></li>
-        <li class="navlink"><a href="index.html#angebot" class="ahov">Domainmarket</a></li>
-        <li class="navlink"><a href="index.html#information" class="ahov">Information</a></li>
-        <li class="navlink"><a href="index.html#kontakt" class="ahov">Contact</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="index.html#home" class="ahov">Home</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="index.html#angebot" class="ahov">Domainmarket</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="index.html#information" class="ahov">Information</a></li>
+        <li onclick="closeNav()" class="navlink"><a href="index.html#kontakt" class="ahov">Contact</a></li>
         <!-- <li><a href="#">Footer</a></li> -->
       </ul>
     </nav>
@@ -37,5 +37,17 @@
     </div>
 
   </body>
+
+  <script>
+      function openNav(){
+        document.querySelector("ul").style.left = "0";
+        document.getElementById("checkbtn").onclick = closeNav;
+      }
+
+      function closeNav(){
+        document.querySelector("ul").style.left = "-100%";
+        document.getElementById("checkbtn").onclick = openNav;
+      }
+  </script>
 
 </html>
