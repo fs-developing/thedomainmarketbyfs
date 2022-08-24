@@ -2,7 +2,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>fsdomains | Home</title>
+    <title>fsdomains de | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="pics/logobluewhite.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -19,7 +19,7 @@
       <label onclick="openNav()" for="check" class="checkbtn" id="checkbtn">
         <a>&#9776;</a>
       </label>
-      <label class="logo"><a href="index.html">fsdomains</a></label>
+      <label class="logo"><a href="index.html">fsdomains de</a></label>
       <ul>
         <li onclick="closeNav()" class="navlink"><a href="#home" class="ahov">Home</a></li>
         <li onclick="closeNav()" class="navlink"><a href="#offer" class="ahov">Domainmarket</a></li>
@@ -133,7 +133,7 @@
 
     <footer class="footer-distributed">
       <div class="footer-left">
-        <h3>fsdomains</h3>
+        <h3>fsdomains de</h3>
         <div class="socialmedia">
           <!-- <img src="pics/logonewwhite.png" height="25px" /> -->
           <a target="_blank" href="https://www.instagram.com/fsmains/"><img src="pics/instagram-brands.png" width="25px" /></a>&nbsp;
@@ -175,35 +175,8 @@
       </div>
       
     </footer>
-    
-    <script>
-      jQuery.get("http://ipinfo.io", function(getcountry){
-
-        if(getcountry.country == "DE" || getcountry.country == "CH" || getcountry.country == "AT"){
-          window.location.href = "https://www.fsdomains.de/de/index.html";
-          
-        } else{
-          window.location.href = "https://www.fsdomains.de/com/index.html";
-        }
-      }, "jsonp")
-    </script>
 
     <script>
-      
-      jQuery.get("http://ipinfo.io", function(getcountry){
-
-        if(getcountry.country == "DE" || getcountry.country == "CH" || getcountry.country == "AT"){
-          window.location.href = "https://www.fsdomains.de/de/index.html";
-          
-        } else{
-          window.location.href = "https://www.fsdomains.de/com/index.html";
-        }
-      }, "jsonp")
-
-      function openNav(){
-        document.querySelector("ul").style.left = "0";
-        document.getElementById("checkbtn").onclick = closeNav;
-      }
 
       function closeNav(){
         document.querySelector("ul").style.left = "-100%";
