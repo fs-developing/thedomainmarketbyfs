@@ -181,6 +181,12 @@ a.active{
 
 }
 
+.plues{
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+
 .homebox{
   background-color: white;
   width: 80%;
