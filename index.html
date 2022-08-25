@@ -177,6 +177,11 @@
     </footer>
 
     <script>
+      
+      function openNav(){
+        document.querySelector("ul").style.left = "0";
+        document.getElementById("checkbtn").onclick = closeNav;
+      }
 
       function closeNav(){
         document.querySelector("ul").style.left = "-100%";
