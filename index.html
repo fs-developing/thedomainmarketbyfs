@@ -21,15 +21,20 @@
       </label>
       <label class="logo"><a href="index.html">fsdomains de</a></label>
       <ul>
-        <li onclick="closeNav()" class="navlink"><a href="#home" class="ahov">Home</a></li>
-        <li onclick="closeNav()" class="navlink"><a href="#offer" class="ahov">Domainmarket</a></li>
-        <li onclick="closeNav()" class="navlink"><a href="#information" class="ahov">Information</a></li>
-        <li onclick="closeNav()" class="navlink"><a href="#contact" class="ahov">Contact</a></li>
+        <li class="navlink"><a href="#home" class="ahov">Home</a></li>
+        <li class="navlink"><a href="#offer" class="ahov">Domainmarket</a></li>
+        <li class="navlink"><a href="#information" class="ahov">Information</a></li>
+        <li class="navlink"><a href="#contact" class="ahov">Contact</a></li>
         <!-- <li><a href="#">Footer</a></li> -->
       </ul>
     </nav>
     
-
+    <div class="menu" id="mobilemenu">
+      <a href="#home">Home <p class="plues">+</p></a>
+      <a href="#offer">Domainmarket <p class="plues">+</p></a>
+      <a href="#information">Information <p class="plues">+</p></a>
+      <a href="#contact">Contact <p class="plues">+</p></a>
+    </div>
   
     <div class="homebox">
       <div class="hcontainer">
@@ -179,12 +184,12 @@
     <script>
       
       function openNav(){
-        document.querySelector("ul").style.left = "0";
+        document.getElementById("mobilemenu").style.display = "block"
         document.getElementById("checkbtn").onclick = closeNav;
       }
 
       function closeNav(){
-        document.querySelector("ul").style.left = "-100%";
+        document.getElementById("mobilemenu").style.display = "none";
         document.getElementById("checkbtn").onclick = openNav;
       }
       
