@@ -126,6 +126,7 @@ a.active{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    display: none;
   }
   nav ul li{
     display: block;
@@ -149,11 +150,36 @@ a.active{
     border-bottom: 3px solid #0e3a5c;
   }
 
-  #check:checked ~ ul{
+  /*#check:checked ~ ul{
     left: 0;
-  }
+  }*/
 }
 
+.menu{
+  display: none;
+  background-color: #0e3a5c;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 0px solid #06243b;
+  z-index: 1;
+  transition: all .5s;
+  box-shadow: 2px 5px 5px grey;
+}
+
+.menu a{
+  display: block;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: .5px solid white;
+
+}
 
 .homebox{
   background-color: white;
