@@ -10,7 +10,7 @@ body{
   background-color: rgb(244, 244, 244);
 }
 nav{
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   background: #0e3a5c;
   height: 70px;
