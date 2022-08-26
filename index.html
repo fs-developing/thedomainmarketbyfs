@@ -186,7 +186,7 @@
       function openNav(){
         document.getElementById("mobilemenu").style.display = "block";
         document.getElementById("checkbtn").onclick = closeNav;
-        document.getElementById("checkbtn").innerHTML = "&#10006";
+        document.querySelectorAll(".checkbtn").innerHTML = "&#10006";
         document.getElementById("checkbtn").style.fontSize = "30px";
         document.getElementById("checkbtn").style.color = "white";
         
