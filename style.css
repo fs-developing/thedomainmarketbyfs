@@ -93,8 +93,12 @@ a.active{
   transition: .1s;
 }
 
+#checkbtn{
+  color:white;
+}
+
 .checkbtn{
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   float: right;
   line-height: 70px;
