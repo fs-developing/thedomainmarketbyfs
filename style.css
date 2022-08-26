@@ -850,17 +850,17 @@ footer{
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: center;
-    margin-left: 0px;
+    text-align: left;
+    margin-left: 10%;
   }
 
   .footer-distributed .footer-center{
-    margin-left: 0;
+    margin-left: 10%;
   }
 
   .footer-distributed .footer-company-about{
     width: 70%;
-    margin-left: 15%;
+    margin-left: 0%;
   }
 
 }
