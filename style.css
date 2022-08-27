@@ -351,6 +351,13 @@ a.active{
   margin-bottom: 3px;
 }
 
+.sale{
+  text-decoration: line-through;
+  color: #0e3a5c;
+  font-size: 16px;
+  padding-right: 4px;
+}
+
 .domaincolumn .tld{
   color: #0e3a5c;
   padding: 3px;
