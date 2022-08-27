@@ -852,6 +852,7 @@ footer{
     margin-bottom: 40px;
     text-align: left;
     margin-left: 10%;
+    overflow: hidden;
   }
 
   .footer-distributed .footer-center{
