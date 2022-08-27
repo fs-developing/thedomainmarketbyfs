@@ -183,6 +183,32 @@
 
     <script>
       
+      (function changeText(){
+        
+        count = 1;
+        setInterval(function(){
+          let text = [
+          '<a style="color: rgb(60, 60, 60);">Fantastic</a> Domains<br /> <a style="color: rgb(60, 60, 60);">Fantastic</a> Prices<br />',
+          '<a style="color: rgb(60, 60, 60);">Mega Domain</a> Sale<br /> Save up to 70%<br />'
+          ]
+          
+          
+          count += 1;
+          if(count == 1){
+            document.getElementById("htext").innerHTML = text[0];
+            document.getElementById("homebox").style.backgroundImage = "url(pics/p3.png)";
+            document.getElementById("undertext").innerHTML = "Your reliable online domain archive";
+          }
+
+          else if(count == 2){
+            document.getElementById("htext").innerHTML = text[1];
+            document.getElementById("homebox").style.backgroundImage = "url(pics/p4.png)";
+            count -= 2;
+          }
+        }, 10000);
+        
+      })();
+      
       function openNav(){
         document.getElementById("mobilemenu").style.display = "block";
         document.getElementById("checkbtn").onclick = closeNav;
