@@ -724,6 +724,7 @@ footer{
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 60px;
+  overflow: hidden;
 }
 
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
