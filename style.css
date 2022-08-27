@@ -201,7 +201,7 @@ a.active{
   box-shadow: 1px 1px 6px 4px rgba(207, 207, 207, 0.616);
   background-image: url(pics/p3.png);
   background-position: center center;
-  transition: .3s;
+  transition: all 0.5s ease-out;
 }
 
 .hcontainer{
