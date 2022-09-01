@@ -248,6 +248,40 @@
         
       })();
       
+      (function auctionTime(){
+
+        setInterval(() => {
+          
+          var timeHolder = document.getElementById("timeHolder");
+          var timeHolder2 = document.getElementById("timeHolder2");
+          var timeHolder3 = document.getElementById("timeHolder3");
+          var timeHolder4 = document.getElementById("timeHolder4");
+          
+          
+          let currentdate = new Date();
+          
+          var date1 = new Date((currentdate.getMonth() + 1) + "/" + currentdate.getDate() + "/" + currentdate.getFullYear());
+          
+          var date2 = new Date("09/04/2022");
+          var date3 = new Date("09/05/2022");
+          var date4 = new Date("09/06/2022");
+          var date5 = new Date("09/07/2022");
+  
+          // To calculate the time difference of two dates
+          var Difference1 = (date2.getTime() - date1.getTime()) / (1000 * 3600 * 24);
+          var Difference2 = (date3.getTime() - date1.getTime()) / (1000 * 3600 * 24);
+          var Difference3 = (date4.getTime() - date1.getTime()) / (1000 * 3600 * 24);
+          var Difference4 = (date5.getTime() - date1.getTime()) / (1000 * 3600 * 24);
+          
+          timeHolder.textContent = Difference1 + " Days left";
+          timeHolder2.textContent = Difference2 + " Days left";
+          timeHolder3.textContent = Difference3 + " Days left";
+          timeHolder4.textContent = Difference4 + " Days left";
+
+        }, 1000);
+
+      })();
+      
       function openNav(){
         document.getElementById("mobilemenu").style.display = "block";
         document.getElementById("checkbtn").onclick = closeNav;
