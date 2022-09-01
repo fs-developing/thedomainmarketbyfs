@@ -462,6 +462,45 @@ a.active{
   display: inline-block;
 }
 
+#auction{
+  border-bottom: 3px solid #2089d8;
+}
+
+#auction .infodomain{
+  margin-bottom: 15px;
+}
+
+#auction .tldcol{
+  color: #2089d8;
+}
+
+#auction .infodomain{
+  color: #2089d8;
+}
+
+#auction .tld{
+  color: #2089d8;
+  border: 2px solid #2089d8;
+}
+
+#auction .buybtn{
+  background-color: #2089d8;
+}
+
+#auction .visitbtn{
+  border: 2px solid #2089d8;
+  color: #2089d8;
+}
+
+.timeHolder{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2089d8;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+  
+}
+
 .newsletterbox{
   background-color: rgb(247, 247, 247);
   margin-left: 10%;
