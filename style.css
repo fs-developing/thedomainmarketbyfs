@@ -463,7 +463,7 @@ a.active{
 }
 
 #auction{
-  border-bottom: 3px solid #2089d8;
+  border-bottom: 3px solid #0e3a5c;
 }
 
 #auction .infodomain{
@@ -471,30 +471,30 @@ a.active{
 }
 
 #auction .tldcol{
-  color: #2089d8;
+  color: #0b548c;
 }
 
 #auction .infodomain{
-  color: #2089d8;
+  color: #0b548c;
 }
 
 #auction .tld{
-  color: #2089d8;
+  color: #0b548c;
   border: 2px solid #2089d8;
 }
 
 #auction .buybtn{
-  background-color: #2089d8;
+  background-color: #0b548c;
 }
 
 #auction .visitbtn{
-  border: 2px solid #2089d8;
-  color: #2089d8;
+  border: 2px solid #0b548c;
+  color: #0b548c;
 }
 
 .timeHolder{
   font-family: Arial, Helvetica, sans-serif;
-  color: #2089d8;
+  color: #0b548c;
   font-size: 14px;
   font-weight: normal;
   margin-top: 5px;
@@ -755,7 +755,7 @@ a.active{
   }
   
   #auction{
-    border-bottom: 2px solid #2089d8;
+    border-bottom: 2px solid #0e3a5c;
   }
 }
 
