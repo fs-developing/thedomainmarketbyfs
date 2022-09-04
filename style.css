@@ -793,6 +793,7 @@ footer{
   font-size: 36px;
   font-family: 'Oleo Script', cursive;
   margin: 0;
+  margin-bottom: -7px;
 }
 
 .footer-distributed .footer-links{
