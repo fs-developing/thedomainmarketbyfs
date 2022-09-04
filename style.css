@@ -1000,3 +1000,15 @@ footer{
 
   
 }
+
+@media(max-width: 550px){
+  .hcontainer{
+    padding: 40px;
+  }
+
+  .homebox{
+    height: 380px;
+    background-size: contain;
+    background-position: 0px 200px;
+  }
+}
