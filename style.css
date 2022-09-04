@@ -753,6 +753,10 @@ a.active{
   .contactform textarea{
     width: 100%;
   }
+  
+  #auction{
+    border-bottom: 2px solid #2089d8;
+  }
 }
 
 footer{
