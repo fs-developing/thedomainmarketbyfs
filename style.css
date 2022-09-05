@@ -888,6 +888,16 @@ footer{
   color: rgb(218, 210, 210);
 }
 
+.socialmedia{
+  margin-top: 10px;
+}
+
+
+.logorow img{
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-right: 6px;
+}
 
 @media(max-width: 880px){
 
