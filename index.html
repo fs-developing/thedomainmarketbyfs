@@ -11,10 +11,7 @@
   <body>
     <section id="home"></section>
     <nav>
-      <input type="checkbox" id="check">
-      <label onclick="openNav()" for="check" class="checkbtn" id="checkbtn">
-        <a>&#9776;</a>
-      </label>
+      <a class="checkbtn" onclick="openNav()" id="checkbtn"><img src="pics/menu.png" width="24px" /></a>
       <label class="logo"><a href="index.html"><img src="pics/navlogoint.png" height="55px" /></a></label>
       <ul>
         <li class="navlink"><a href="#home" class="ahov">Home</a></li>
@@ -284,19 +281,16 @@
       })();
       
       function openNav(){
-        document.getElementById("mobilemenu").style.display = "block";
+        document.getElementById("mobilemenu").style.display = "block"
         document.getElementById("checkbtn").onclick = closeNav;
-        document.getElementById("checkbtn").innerHTML = "&#10005;";
-        document.getElementById("checkbtn").style.fontSize = "25px";
-        
+        document.getElementById("checkbtn").innerHTML = ' <img src="pics/close.png" width="18px" /> ';
         
       }
 
       function closeNav(){
         document.getElementById("mobilemenu").style.display = "none";
         document.getElementById("checkbtn").onclick = openNav;
-        document.getElementById("checkbtn").innerHTML = "&#9776;";
-        document.getElementById("checkbtn").style.fontSize = "30px";
+        document.getElementById("checkbtn").innerHTML = ' <img src="pics/menu.png" width="24px" /> ';
       }
       
       filterSelection("all")
