@@ -93,22 +93,16 @@ a.active{
   transition: .1s;
 }
 
-#checkbtn{
-  color:white;
-}
-
 .checkbtn{
-  font-size: 30px;
+  
   color: white;
   float: right;
-  line-height: 70px;
+  line-height: 80px;
   margin-right: 10%;
   cursor: pointer;
   display: none;
 }
-#check{
-  display: none;
-}
+
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
