@@ -97,7 +97,8 @@ a.active{
   
   color: white;
   float: right;
-  line-height: 80px;
+  margin-top: 5px;
+  line-height: 70px;
   margin-right: 10%;
   cursor: pointer;
   display: none;
