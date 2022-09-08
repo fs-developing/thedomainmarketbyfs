@@ -380,13 +380,14 @@ a.active{
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 4px;
-  background-color: #0e3a5c;
+  // background-color: #0e3a5c;
   
 }
 
 
 .domaincolumn .buybtn:hover{
-  background-color: #0e3a5cd7;
+  // background-color: #0e3a5cd7;
+  background-color: #0e3a5c;
   transition: .3s;
   cursor: pointer;
 }
@@ -409,7 +410,7 @@ a.active{
 
 
 .domaincolumn .visitbtn:hover{
-  background-color: #bfbfbfd7;
+  background-color: #0e3a5c;
   transition: .3s;
   cursor: pointer;
 }
