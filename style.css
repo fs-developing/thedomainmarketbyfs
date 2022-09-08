@@ -483,6 +483,7 @@ a.active{
 
 #auction .buybtn{
   background-color: #0b548c;
+  color: white;
 }
 
 #auction .visitbtn{
