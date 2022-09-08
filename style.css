@@ -376,7 +376,7 @@ a.active{
   color: #0e3a5c;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  padding: 10px;
+  padding: 8px;
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 4px;
@@ -388,7 +388,7 @@ a.active{
 .domaincolumn .buybtn:hover{
   // background-color: #0e3a5cd7;
   background-color: #0e3a5c;
-  color: #0e3a5c;
+  color: white;
   transition: .3s;
   cursor: pointer;
 }
@@ -413,7 +413,7 @@ a.active{
 .domaincolumn .visitbtn:hover{
   background-color: #0e3a5c;
   transition: .3s;
-  color: #0e3a5c;
+  color: white;
   cursor: pointer;
 }
 
