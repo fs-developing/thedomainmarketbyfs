@@ -526,7 +526,27 @@ a.active{
   color: #0e3a5c;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 27px;
+}
+
+.validate button{
+  background-color: #0e3a5c;
+  outline: none;
+  border: 2px solid #0e3a5c;
+  border-radius: 0px;
+  color: white;
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.validate button:hover{
+  color: rgb(22, 148, 133);
+  border: 2px solid rgb(22, 148, 133);
+  transition: .3s;
+  cursor: pointer;
 }
 
 .validate label{
