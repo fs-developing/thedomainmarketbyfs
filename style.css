@@ -543,8 +543,7 @@ a.active{
 }
 
 .validate button:hover{
-  color: rgb(22, 148, 133);
-  border: 2px solid rgb(22, 148, 133);
+  background-color: rgb(22, 148, 133);
   transition: .3s;
   cursor: pointer;
 }
